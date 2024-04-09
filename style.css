@@ -1,0 +1,216 @@
+@import url(("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap");
+);
+html, body{
+    font-family: 'Poppins', sans-serif;
+  background: white;
+  margin: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+  }
+
+  ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    margin: 0;
+  }
+  h1{
+    text-align: center;
+    color:black;
+    padding: 20px;
+  }
+  h3{
+    color:black;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+  h3{
+    text-align: right;
+  }
+  h2{
+    text-align: left;
+  }
+  a:hover{
+    color: aqua;
+  }
+  section{
+    background-size: cover;
+    display: flex;
+    gap: 15px;
+  }
+  .designer{
+    background-image: url("images/Versace007.jpg");
+    width: 100%;
+    height: 104vh;
+    background-size: cover;
+    }
+  .designer h1{
+    text-align: center;
+    font-size: x-large;
+    font-family: "noto serif JP",serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  img:hover{
+    transform: scale(1.1);
+    box-shadow: 31px 29px 15px -3px rgba#AA771C;
+    border-radius: 
+  }
+  nav{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+     background-color: white;
+     width: 100%;
+     justify-content: space-evenly;
+     align-items: center;
+     
+   }
+   .logo img{
+    width: 33%;
+   }
+
+   .btn{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);;
+   }
+    
+   .btn{
+    text-transform: capitalize;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    padding: 25px;
+
+   }
+   .btn:hover{
+    transform: scale(1.1);
+    box-shadow: 31px 29px 15px -3px rgba#AA771C;
+    border-radius: 
+   }
+   .commander{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+     align-items:center;
+     background-color: white;
+     justify-content: space-evenly
+   }
+  
+   .img-petite{
+    width: 100px;
+    height: auto;
+   }
+   .button-nav-commander{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: all .3s ease-in-out;
+  }
+  .button-nav-commender{
+    background: aqua;
+    color: black;
+  }
+  .button-main-{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: all .3s ease-in-out;
+  }
+  .button-main-{
+    background: aqua;
+    color: black;
+  }
+  footer {
+    margin: 0%;
+    padding: 100px 0px 20px;
+    color: ;
+  }
+  .article{
+    background: white;
+    width: 25%;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  section img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .name-price{
+   display: flex;
+     justify-content: space-between;
+   align-items: center;
+  }
+  .product-description{
+   padding: 0 20px 30px;
+  }
+  .hero-header {
+    position: relative; /* Permet de positionner la superposition par rapport à ce conteneur */
+  }
+  .background-hero {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1; /* Assure que la superposition est au-dessus de l'image */
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur semi-transparente pour la superposition */
+    z-index: -1; /* Place la superposition derrière le texte */
+  }
+  /* Autres styles pour le texte et les boutons */
+  h1, p {
+    margin: 0;
+  }
+  .buttons-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .buttons-discover{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: all .3s ease-in-out;
+  }
+  .buttons-add{
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: all .3s ease-in-out;
+  }
+  .buttons-discover{
+    background: aqua;
+     color: black;
+  }
+  .buttons-add{
+    background: aqua;
+     color: black;
+  }
