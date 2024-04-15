@@ -14,7 +14,6 @@ html, body{
     margin: auto;
 
   }
-
   ul{
     display: flex;
     list-style: none;
@@ -85,6 +84,9 @@ html, body{
     margin: 0px 200px;
     font-weight: bold;
   }
+  #boutique h1{
+    font-weight: bold;
+  }
    .btn{
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);;
@@ -94,8 +96,15 @@ html, body{
     text-transform: capitalize;
     color: white;
     border-radius: 50px;
-    border: 0;
+    border: 4px double #AA771C;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
     padding: 19px;
+    cursor: pointer;
+    box-shadow:  10px 5px 5px #AA771C;
+    transition: all .6s ease-in-out;
 
    }
    .btn:hover{
@@ -148,6 +157,17 @@ html, body{
     height: 300px;
     object-fit: cover;
   }
+  img {
+     box-shadow:8px 8px 10px 0 rgba(180, 138, 7, 0.9);
+     -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+img:hover{
+  transform:rotate3d(0,1,0,180deg);
+}
   section{padding: 24px;}
   .name-price{
    display: flex;
@@ -220,7 +240,7 @@ html, body{
 
   /* Footer */
 footer {
-  background-color:  #5d4a1f;;
+  background-color:  #AA771C;
   width: 100%;
   color: white;
   justify-content: center;
@@ -229,5 +249,5 @@ footer {
 }
 footer:hover {
   color: black;
-  background-color: #5d4a1f;
+  background-color: #AA771C;
 }
